@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище KINOModelContainer" CdmEntityContainer="KINOLocalDB">
+    <EntitySetMapping Name="film_country">
+      <EntityTypeMapping TypeName="KINOModel.film_country">
+        <MappingFragment StoreEntitySet="film_country">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="film_genre">
+      <EntityTypeMapping TypeName="KINOModel.film_genre">
+        <MappingFragment StoreEntitySet="film_genre">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Filmcountry">
+      <EntityTypeMapping TypeName="KINOModel.Filmcountry">
+        <MappingFragment StoreEntitySet="Filmcountry">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_film" ColumnName="id_film" />
+          <ScalarProperty Name="id_country" ColumnName="id_country" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Filmgenre">
+      <EntityTypeMapping TypeName="KINOModel.Filmgenre">
+        <MappingFragment StoreEntitySet="Filmgenre">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_film" ColumnName="id_film" />
+          <ScalarProperty Name="id_genre" ColumnName="id_genre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proba_film">
+      <EntityTypeMapping TypeName="KINOModel.Proba_film">
+        <MappingFragment StoreEntitySet="Proba_film">
+          <ScalarProperty Name="id_film" ColumnName="id_film" />
+          <ScalarProperty Name="name_film" ColumnName="name_film" />
+          <ScalarProperty Name="year_film" ColumnName="year_film" />
+          <ScalarProperty Name="description_film" ColumnName="description_film" />
+          <ScalarProperty Name="image_film" ColumnName="image_film" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

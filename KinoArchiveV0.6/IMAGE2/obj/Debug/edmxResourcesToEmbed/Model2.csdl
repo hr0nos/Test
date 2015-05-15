@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KINOModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="film_country">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Filmcountry" Relationship="Self.FK__Filmcount__id_co__6EC0713C" FromRole="film_country" ToRole="Filmcountry" />
+  </EntityType>
+  <EntityType Name="film_genre">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Filmgenre" Relationship="Self.FK__Filmgenre__id_ge__540C7B00" FromRole="film_genre" ToRole="Filmgenre" />
+  </EntityType>
+  <EntityType Name="Filmcountry">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_film" Type="Int32" Nullable="false" />
+    <Property Name="id_country" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="film_country" Relationship="Self.FK__Filmcount__id_co__6EC0713C" FromRole="Filmcountry" ToRole="film_country" />
+    <NavigationProperty Name="Proba_film" Relationship="Self.FK__Filmcount__id_fi__6DCC4D03" FromRole="Filmcountry" ToRole="Proba_film" />
+  </EntityType>
+  <EntityType Name="Filmgenre">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_film" Type="Int32" Nullable="false" />
+    <Property Name="id_genre" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="film_genre" Relationship="Self.FK__Filmgenre__id_ge__540C7B00" FromRole="Filmgenre" ToRole="film_genre" />
+    <NavigationProperty Name="Proba_film" Relationship="Self.FK__Filmgenre__id_fi__531856C7" FromRole="Filmgenre" ToRole="Proba_film" />
+  </EntityType>
+  <EntityType Name="Link">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Link_path" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Proba_film">
+    <Key>
+      <PropertyRef Name="id_film" />
+    </Key>
+    <Property Name="id_film" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name_film" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="year_film" Type="Int32" />
+    <Property Name="description_film" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="image_film" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Filmcountry" Relationship="Self.FK__Filmcount__id_fi__6DCC4D03" FromRole="Proba_film" ToRole="Filmcountry" />
+    <NavigationProperty Name="Filmgenre" Relationship="Self.FK__Filmgenre__id_fi__531856C7" FromRole="Proba_film" ToRole="Filmgenre" />
+  </EntityType>
+  <Association Name="FK__Filmcount__id_co__6EC0713C">
+    <End Role="film_country" Type="Self.film_country" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Filmcountry" Type="Self.Filmcountry" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="film_country">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Filmcountry">
+        <PropertyRef Name="id_country" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Filmgenre__id_ge__540C7B00">
+    <End Role="film_genre" Type="Self.film_genre" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Filmgenre" Type="Self.Filmgenre" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="film_genre">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Filmgenre">
+        <PropertyRef Name="id_genre" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Filmcount__id_fi__6DCC4D03">
+    <End Role="Proba_film" Type="Self.Proba_film" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Filmcountry" Type="Self.Filmcountry" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proba_film">
+        <PropertyRef Name="id_film" />
+      </Principal>
+      <Dependent Role="Filmcountry">
+        <PropertyRef Name="id_film" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Filmgenre__id_fi__531856C7">
+    <End Role="Proba_film" Type="Self.Proba_film" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Filmgenre" Type="Self.Filmgenre" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proba_film">
+        <PropertyRef Name="id_film" />
+      </Principal>
+      <Dependent Role="Filmgenre">
+        <PropertyRef Name="id_film" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="KINOEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="film_country" EntityType="Self.film_country" />
+    <EntitySet Name="film_genre" EntityType="Self.film_genre" />
+    <EntitySet Name="Filmcountry" EntityType="Self.Filmcountry" />
+    <EntitySet Name="Filmgenre" EntityType="Self.Filmgenre" />
+    <EntitySet Name="Link" EntityType="Self.Link" />
+    <EntitySet Name="Proba_film" EntityType="Self.Proba_film" />
+    <AssociationSet Name="FK__Filmcount__id_co__6EC0713C" Association="Self.FK__Filmcount__id_co__6EC0713C">
+      <End Role="film_country" EntitySet="film_country" />
+      <End Role="Filmcountry" EntitySet="Filmcountry" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Filmgenre__id_ge__540C7B00" Association="Self.FK__Filmgenre__id_ge__540C7B00">
+      <End Role="film_genre" EntitySet="film_genre" />
+      <End Role="Filmgenre" EntitySet="Filmgenre" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Filmcount__id_fi__6DCC4D03" Association="Self.FK__Filmcount__id_fi__6DCC4D03">
+      <End Role="Proba_film" EntitySet="Proba_film" />
+      <End Role="Filmcountry" EntitySet="Filmcountry" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Filmgenre__id_fi__531856C7" Association="Self.FK__Filmgenre__id_fi__531856C7">
+      <End Role="Proba_film" EntitySet="Proba_film" />
+      <End Role="Filmgenre" EntitySet="Filmgenre" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

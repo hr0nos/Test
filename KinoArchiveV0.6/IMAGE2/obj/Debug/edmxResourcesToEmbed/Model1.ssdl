@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище KINOModel" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="film_country">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="film_genre">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Filmcountry">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_film" Type="int" Nullable="false" />
+    <Property Name="id_country" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Filmgenre">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_film" Type="int" Nullable="false" />
+    <Property Name="id_genre" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Proba_film">
+    <Key>
+      <PropertyRef Name="id_film" />
+    </Key>
+    <Property Name="id_film" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name_film" Type="varchar" MaxLength="50" />
+    <Property Name="year_film" Type="int" />
+    <Property Name="description_film" Type="text" />
+    <Property Name="image_film" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <Association Name="FK__Filmcount__id_co__6EC0713C">
+    <End Role="film_country" Type="Self.film_country" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Filmcountry" Type="Self.Filmcountry" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="film_country">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Filmcountry">
+        <PropertyRef Name="id_country" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Filmcount__id_fi__6DCC4D03">
+    <End Role="Proba_film" Type="Self.Proba_film" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Filmcountry" Type="Self.Filmcountry" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proba_film">
+        <PropertyRef Name="id_film" />
+      </Principal>
+      <Dependent Role="Filmcountry">
+        <PropertyRef Name="id_film" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Filmgenre__id_fi__531856C7">
+    <End Role="Proba_film" Type="Self.Proba_film" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Filmgenre" Type="Self.Filmgenre" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proba_film">
+        <PropertyRef Name="id_film" />
+      </Principal>
+      <Dependent Role="Filmgenre">
+        <PropertyRef Name="id_film" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Filmgenre__id_ge__540C7B00">
+    <End Role="film_genre" Type="Self.film_genre" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Filmgenre" Type="Self.Filmgenre" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="film_genre">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Filmgenre">
+        <PropertyRef Name="id_genre" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище KINOModelContainer">
+    <EntitySet Name="film_country" EntityType="Self.film_country" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="film_genre" EntityType="Self.film_genre" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Filmcountry" EntityType="Self.Filmcountry" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Filmgenre" EntityType="Self.Filmgenre" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Proba_film" EntityType="Self.Proba_film" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Filmcount__id_co__6EC0713C" Association="Self.FK__Filmcount__id_co__6EC0713C">
+      <End Role="film_country" EntitySet="film_country" />
+      <End Role="Filmcountry" EntitySet="Filmcountry" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Filmcount__id_fi__6DCC4D03" Association="Self.FK__Filmcount__id_fi__6DCC4D03">
+      <End Role="Proba_film" EntitySet="Proba_film" />
+      <End Role="Filmcountry" EntitySet="Filmcountry" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Filmgenre__id_fi__531856C7" Association="Self.FK__Filmgenre__id_fi__531856C7">
+      <End Role="Proba_film" EntitySet="Proba_film" />
+      <End Role="Filmgenre" EntitySet="Filmgenre" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Filmgenre__id_ge__540C7B00" Association="Self.FK__Filmgenre__id_ge__540C7B00">
+      <End Role="film_genre" EntitySet="film_genre" />
+      <End Role="Filmgenre" EntitySet="Filmgenre" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

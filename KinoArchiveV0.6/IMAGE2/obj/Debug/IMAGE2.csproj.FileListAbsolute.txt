@@ -1,0 +1,124 @@
+D:\Program Files\Visal Basic Projects\C#\IMAGE2\IMAGE2\bin\Debug\IMAGE2.exe.config
+D:\Program Files\Visal Basic Projects\C#\IMAGE2\IMAGE2\bin\Debug\IMAGE2.exe
+D:\Program Files\Visal Basic Projects\C#\IMAGE2\IMAGE2\bin\Debug\IMAGE2.pdb
+D:\Program Files\Visal Basic Projects\C#\IMAGE2\IMAGE2\bin\Debug\EntityFramework.dll
+D:\Program Files\Visal Basic Projects\C#\IMAGE2\IMAGE2\bin\Debug\EntityFramework.xml
+D:\Program Files\Visal Basic Projects\C#\IMAGE2\IMAGE2\bin\Debug\ru\EntityFramework.resources.dll
+D:\Program Files\Visal Basic Projects\C#\IMAGE2\IMAGE2\obj\Debug\IMAGE2.csprojResolveAssemblyReference.cache
+D:\Program Files\Visal Basic Projects\C#\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form1.resources
+D:\Program Files\Visal Basic Projects\C#\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Properties.Resources.resources
+D:\Program Files\Visal Basic Projects\C#\IMAGE2\IMAGE2\obj\Debug\IMAGE2.csproj.GenerateResource.Cache
+D:\Program Files\Visal Basic Projects\C#\IMAGE2\IMAGE2\obj\Debug\IMAGE2.exe
+D:\Program Files\Visal Basic Projects\C#\IMAGE2\IMAGE2\obj\Debug\IMAGE2.pdb
+D:\Program Files\Visal Basic Projects\C#\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form2.resources
+D:\Program Files\Visal Basic Projects\C#\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form3.resources
+D:\Program Files\Visal Basic Projects\C#\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form_View.resources
+D:\Program Files\Visal Basic Projects\C#\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form_User.resources
+K:\Курсовая\KinoArchiveV0.1\IMAGE2\IMAGE2\bin\Debug\IMAGE2.exe.config
+K:\Курсовая\KinoArchiveV0.1\IMAGE2\IMAGE2\obj\Debug\IMAGE2.exe
+K:\Курсовая\KinoArchiveV0.1\IMAGE2\IMAGE2\obj\Debug\IMAGE2.pdb
+K:\Курсовая\KinoArchiveV0.1\IMAGE2\IMAGE2\obj\Debug\IMAGE2.csprojResolveAssemblyReference.cache
+K:\Курсовая\KinoArchiveV0.1\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form1.resources
+K:\Курсовая\KinoArchiveV0.1\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form2.resources
+K:\Курсовая\KinoArchiveV0.1\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form3.resources
+K:\Курсовая\KinoArchiveV0.1\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form_User.resources
+K:\Курсовая\KinoArchiveV0.1\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form_View.resources
+K:\Курсовая\KinoArchiveV0.1\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Properties.Resources.resources
+K:\Курсовая\KinoArchiveV0.1\IMAGE2\IMAGE2\obj\Debug\IMAGE2.csproj.GenerateResource.Cache
+K:\Курсовая\KinoArchiveV0.1\IMAGE2\IMAGE2\bin\Debug\IMAGE2.exe
+K:\Курсовая\KinoArchiveV0.1\IMAGE2\IMAGE2\bin\Debug\IMAGE2.pdb
+K:\Курсовая\KinoArchiveV0.1\IMAGE2\IMAGE2\bin\Debug\EntityFramework.dll
+K:\Курсовая\KinoArchiveV0.1\IMAGE2\IMAGE2\bin\Debug\EntityFramework.xml
+K:\Курсовая\KinoArchiveV0.1\IMAGE2\IMAGE2\bin\Debug\ru\EntityFramework.resources.dll
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.2\KinoArchiveV0.2\IMAGE2\IMAGE2\bin\Debug\IMAGE2.exe.config
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.2\KinoArchiveV0.2\IMAGE2\IMAGE2\obj\Debug\IMAGE2.exe
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.2\KinoArchiveV0.2\IMAGE2\IMAGE2\obj\Debug\IMAGE2.pdb
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.2\KinoArchiveV0.2\IMAGE2\IMAGE2\bin\Debug\IMAGE2.exe
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.2\KinoArchiveV0.2\IMAGE2\IMAGE2\bin\Debug\IMAGE2.pdb
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.2\KinoArchiveV0.2\IMAGE2\IMAGE2\bin\Debug\EntityFramework.dll
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.2\KinoArchiveV0.2\IMAGE2\IMAGE2\bin\Debug\EntityFramework.xml
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.2\KinoArchiveV0.2\IMAGE2\IMAGE2\bin\Debug\ru\EntityFramework.resources.dll
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.2\KinoArchiveV0.2\IMAGE2\IMAGE2\obj\Debug\IMAGE2.csprojResolveAssemblyReference.cache
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.2\KinoArchiveV0.2\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form1.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.2\KinoArchiveV0.2\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form2.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.2\KinoArchiveV0.2\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form3.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.2\KinoArchiveV0.2\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form_User.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.2\KinoArchiveV0.2\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form_View.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.2\KinoArchiveV0.2\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Properties.Resources.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.2\KinoArchiveV0.2\IMAGE2\IMAGE2\obj\Debug\IMAGE2.csproj.GenerateResource.Cache
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\bin\Debug\IMAGE2.exe.config
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\obj\Debug\IMAGE2.exe
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\obj\Debug\IMAGE2.pdb
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\bin\Debug\IMAGE2.exe
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\bin\Debug\IMAGE2.pdb
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\bin\Debug\EntityFramework.dll
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\bin\Debug\EntityFramework.SqlServer.dll
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\bin\Debug\EntityFramework.xml
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\bin\Debug\EntityFramework.SqlServer.xml
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\bin\Debug\ru\EntityFramework.resources.dll
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\obj\Debug\IMAGE2.csprojResolveAssemblyReference.cache
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form1.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form2.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form3.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form_User.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form_View.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Properties.Resources.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\obj\Debug\IMAGE2.csproj.GenerateResource.Cache
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.4~\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\bin\Debug\IMAGE2.exe.config
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.4~\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\obj\Debug\IMAGE2.exe
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.4~\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\obj\Debug\IMAGE2.pdb
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.4~\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\bin\Debug\IMAGE2.exe
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.4~\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\bin\Debug\IMAGE2.pdb
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.4~\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\bin\Debug\EntityFramework.dll
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.4~\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\bin\Debug\EntityFramework.SqlServer.dll
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.4~\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\bin\Debug\EntityFramework.xml
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.4~\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\bin\Debug\EntityFramework.SqlServer.xml
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.4~\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\bin\Debug\ru\EntityFramework.resources.dll
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.4~\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.4~\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\obj\Debug\IMAGE2.csprojResolveAssemblyReference.cache
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.4~\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form1.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.4~\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form2.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.4~\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form3.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.4~\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form_User.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.4~\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Form_View.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.4~\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\obj\Debug\IMAGE2.Properties.Resources.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.4~\KinoArchiveV0.3\KinoArchiveV0.3\IMAGE2\IMAGE2\obj\Debug\IMAGE2.csproj.GenerateResource.Cache
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.5\IMAGE2\bin\Debug\IMAGE2.exe.config
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.5\IMAGE2\obj\Debug\IMAGE2.exe
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.5\IMAGE2\obj\Debug\IMAGE2.pdb
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.5\IMAGE2\bin\Debug\IMAGE2.exe
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.5\IMAGE2\bin\Debug\IMAGE2.pdb
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.5\IMAGE2\bin\Debug\EntityFramework.dll
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.5\IMAGE2\bin\Debug\EntityFramework.SqlServer.dll
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.5\IMAGE2\bin\Debug\EntityFramework.xml
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.5\IMAGE2\bin\Debug\EntityFramework.SqlServer.xml
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.5\IMAGE2\bin\Debug\ru\EntityFramework.resources.dll
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.5\IMAGE2\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.5\IMAGE2\obj\Debug\IMAGE2.csprojResolveAssemblyReference.cache
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.5\IMAGE2\obj\Debug\IMAGE2.Form1.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.5\IMAGE2\obj\Debug\IMAGE2.Form2.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.5\IMAGE2\obj\Debug\IMAGE2.Form3.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.5\IMAGE2\obj\Debug\IMAGE2.Form_User.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.5\IMAGE2\obj\Debug\IMAGE2.Form_View.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.5\IMAGE2\obj\Debug\IMAGE2.Properties.Resources.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.5\IMAGE2\obj\Debug\IMAGE2.csproj.GenerateResource.Cache
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.6\IMAGE2\bin\Debug\IMAGE2.exe.config
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.6\IMAGE2\obj\Debug\IMAGE2.exe
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.6\IMAGE2\obj\Debug\IMAGE2.pdb
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.6\IMAGE2\bin\Debug\IMAGE2.exe
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.6\IMAGE2\bin\Debug\IMAGE2.pdb
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.6\IMAGE2\bin\Debug\EntityFramework.dll
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.6\IMAGE2\bin\Debug\EntityFramework.SqlServer.dll
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.6\IMAGE2\bin\Debug\EntityFramework.xml
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.6\IMAGE2\bin\Debug\EntityFramework.SqlServer.xml
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.6\IMAGE2\bin\Debug\ru\EntityFramework.resources.dll
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.6\IMAGE2\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.6\IMAGE2\obj\Debug\IMAGE2.csprojResolveAssemblyReference.cache
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.6\IMAGE2\obj\Debug\IMAGE2.Form1.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.6\IMAGE2\obj\Debug\IMAGE2.Form2.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.6\IMAGE2\obj\Debug\IMAGE2.Form3.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.6\IMAGE2\obj\Debug\IMAGE2.Form_User.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.6\IMAGE2\obj\Debug\IMAGE2.Form_View.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.6\IMAGE2\obj\Debug\IMAGE2.Properties.Resources.resources
+D:\Program Files\Visal Basic Projects\C#\KinoArchiveV0.6\IMAGE2\obj\Debug\IMAGE2.csproj.GenerateResource.Cache
